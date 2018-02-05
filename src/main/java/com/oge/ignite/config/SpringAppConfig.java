@@ -1,7 +1,5 @@
-package com.epam.jmp.ignite.config;
+package com.oge.ignite.config;
 
-import com.epam.jmp.ignite.model.Car;
-import com.epam.jmp.ignite.model.Master;
 import org.apache.ignite.Ignite;
 import org.apache.ignite.Ignition;
 import org.apache.ignite.configuration.CacheConfiguration;
@@ -10,12 +8,15 @@ import org.apache.ignite.springdata.repository.config.EnableIgniteRepositories;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import com.oge.ignite.model.Car;
+import com.oge.ignite.model.Master;
+
 /**
  * @author Aliaksandr_Pleski
  * @since 8/2/2017.
  */
 @Configuration
-@EnableIgniteRepositories(basePackages = "com.epam.jmp.ignite.repository")
+@EnableIgniteRepositories(basePackages = "com.oge.ignite.repository")
 public class SpringAppConfig {
     @Bean
     public Ignite igniteInstance() {

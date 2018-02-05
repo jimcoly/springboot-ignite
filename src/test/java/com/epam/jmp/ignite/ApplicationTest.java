@@ -11,10 +11,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.epam.jmp.ignite.model.Car;
-import com.epam.jmp.ignite.model.Master;
-import com.epam.jmp.ignite.repository.CarRepository;
-import com.epam.jmp.ignite.repository.MasterRepository;
+import com.oge.ignite.model.Car;
+import com.oge.ignite.model.Master;
+import com.oge.ignite.repository.CarRepository;
+import com.oge.ignite.repository.MasterRepository;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)

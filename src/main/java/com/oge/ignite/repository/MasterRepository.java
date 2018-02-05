@@ -1,10 +1,11 @@
-package com.epam.jmp.ignite.repository;
+package com.oge.ignite.repository;
 
-import com.epam.jmp.ignite.model.Car;
-import com.epam.jmp.ignite.model.Master;
 import org.apache.ignite.springdata.repository.IgniteRepository;
 import org.apache.ignite.springdata.repository.config.Query;
 import org.apache.ignite.springdata.repository.config.RepositoryConfig;
+
+import com.oge.ignite.model.Car;
+import com.oge.ignite.model.Master;
 
 import java.util.List;
 

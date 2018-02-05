@@ -1,4 +1,4 @@
-package com.epam.jmp.ignite.model;
+package com.oge.ignite.model;
 
 import org.apache.ignite.cache.query.annotations.QuerySqlField;
 

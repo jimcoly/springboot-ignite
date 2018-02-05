@@ -1,10 +1,11 @@
-package com.epam.jmp.ignite.repository;
+package com.oge.ignite.repository;
 
-import com.epam.jmp.ignite.model.Car;
 import org.apache.ignite.springdata.repository.IgniteRepository;
 import org.apache.ignite.springdata.repository.config.Query;
 import org.apache.ignite.springdata.repository.config.RepositoryConfig;
 import org.springframework.data.domain.Pageable;
+
+import com.oge.ignite.model.Car;
 
 import java.util.List;
 
