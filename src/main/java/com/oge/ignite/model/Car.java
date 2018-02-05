@@ -4,10 +4,6 @@ import org.apache.ignite.cache.query.annotations.QuerySqlField;
 
 import java.io.Serializable;
 
-/**
- * @author Aliaksandr_Pleski
- * @since 8/2/2017.
- */
 public class Car implements Serializable {
     @QuerySqlField(index = true)
     private long id;

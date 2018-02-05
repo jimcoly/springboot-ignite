@@ -9,10 +9,6 @@ import com.oge.ignite.model.Car;
 
 import java.util.List;
 
-/**
- * @author Aliaksandr_Pleski
- * @since 8/2/2017.
- */
 @RepositoryConfig(cacheName = "CarCache")
 public interface CarRepository extends IgniteRepository<Car, Long> {
     List<Car> getCarsByName(String name);

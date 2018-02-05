@@ -11,10 +11,6 @@ import org.springframework.context.annotation.Configuration;
 import com.oge.ignite.model.Car;
 import com.oge.ignite.model.Master;
 
-/**
- * @author Aliaksandr_Pleski
- * @since 8/2/2017.
- */
 @Configuration
 @EnableIgniteRepositories(basePackages = "com.oge.ignite.repository")
 public class SpringAppConfig {

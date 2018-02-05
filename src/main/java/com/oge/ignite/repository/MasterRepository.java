@@ -9,10 +9,6 @@ import com.oge.ignite.model.Master;
 
 import java.util.List;
 
-/**
- * @author Aliaksandr_Pleski
- * @since 8/2/2017.
- */
 @RepositoryConfig(cacheName = "MasterCache")
 public interface MasterRepository extends IgniteRepository<Master, Long> {
     Master getMasterById(Long id);
