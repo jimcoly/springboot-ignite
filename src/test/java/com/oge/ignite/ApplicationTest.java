@@ -1,4 +1,4 @@
-package com.epam.jmp.ignite;
+package com.oge.ignite;
 
 import java.util.Map;
 import java.util.TreeMap;
